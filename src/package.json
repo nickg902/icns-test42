@@ -1,0 +1,14 @@
+{
+  "name": "int13h.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/int13h.github.io"
+  },
+  "author": "int13h",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
