@@ -8,7 +8,13 @@
   },
   "author": "int13h",
   "license": "UNLICENSED",
+  "scripts": {
+    "build-prod": "esbuild index.jsx --bundle --define:process.env.NODE_ENV=\\\"production\\\" --minify --outfile=../index.js"
+  },
   "dependencies": {
-    "react": "^17.0.1"
+    "@material-ui/core": "^4.11.1",
+    "esbuild": "^0.8.16",
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   }
 }
