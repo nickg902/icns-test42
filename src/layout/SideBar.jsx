@@ -51,15 +51,15 @@ const entries = {
     name: "Code",
     icon: "glyphicons-code.svg"
   },
-  "https://www.goodreads.com/review/list/69303468": {
+  "https://www.goodreads.com/user/show/72735131-nickg902": {
     name: "Books",
     icon: "glyphicons-book.svg"
   },
-  "https://github.com/int13h": {
+  "https://github.com/nickg902": {
     name: "Github",
     icon: "github.svg"
   },
-  "https://twitter.com/7061756c0d": {
+  "https://twitter.com/nickg902": {
     name: "Twitter",
     icon: "twitter.svg"
   }
