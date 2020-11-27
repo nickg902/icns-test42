@@ -1,0 +1,35 @@
+html,body {
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #757575;
+  background-color: #f4f4f4;
+}
+
+pre {
+  font-family: monospace !important;
+}

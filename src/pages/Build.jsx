@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Main() {
+export default function Build() {
   return (
     <div>
-      Test
+      Build
     </div>
   );
 };

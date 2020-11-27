@@ -9,7 +9,11 @@
   "author": "int13h",
   "license": "UNLICENSED",
   "scripts": {
+    "build-dev": "esbuild index.jsx --bundle --define:process.env.NODE_ENV=\\\"development\\\" --sourcemap --outfile=../index.js",
     "build-prod": "esbuild index.jsx --bundle --define:process.env.NODE_ENV=\\\"production\\\" --minify --outfile=../index.js"
+  },
+  "browser": {
+    "path": "path-browserify"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.1",
